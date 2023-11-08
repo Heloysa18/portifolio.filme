@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;}
+    body{
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;height: 100px;
+    background: rgb(8, 101, 129);
+    justify-content: center;align-items: center;
+}
+
+.logo{
+    flex: 20%;
+    border: 1px solid rgb(8, 101, 129);
+    text-align: center;
+    margin-left: 10%;
+}
+
+.logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 25,02px;
+}
+
+.menu{
+    flex: 70%;
+    border: 1px solid rgb(8, 101, 129);
+    text-align: right;
+    padding: 20px;
+}
+
+.menu a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    border-top: 4px solid rgb(155, 141, 155);
+}
+
+#botao{
+    background: rgb(107, 197, 224);
+    padding: 10px 25px;
+    color: rgb(8, 74, 94);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+#botao:hover{
+    border: none;
+    background: gray;
+    color: white
+}
+
+.principal{
+    display: flex;
+    flex-flow: row wrap;height: 700px;
+    background: rgb(55, 169, 204);
+}
+
+.texto{
+    margin-left: 10%;
+    flex: 20%;
+    border: 1px solid rgb(55, 169, 204);
+}
+
+.texto h2{
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.imagem{
+    display: flex;
+    flex-flow: row wrap;margin-right: 10%;
+    flex: 40%;
+    border: 1px solid rgb(55, 169, 204);
+    justify-content: center;
+    align-items: center;
+}
+
+texto p{
+    color: rgb(3, 46, 59);
+}
+
+.botaosobre{
+    background: rgb(11, 109, 139);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.botaosobre:hover{
+    background: gray;
+}
